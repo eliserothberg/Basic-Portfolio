@@ -16,7 +16,7 @@ h2 {
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
   background-color: white;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 40px;
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: solid;
@@ -88,6 +88,7 @@ li a:hover {
 .left {
    float: left;
    padding: 0 10px 20px 0;
+   background-color: white;
   }
 
 #left {
@@ -97,8 +98,11 @@ li a:hover {
     margin-left: 10px;
     float: left;
     word-wrap: left;
+ }
 
-  }
+ p {
+    background-color: white;
+ }
 
 #port-left {
     height: 100px;
@@ -107,6 +111,12 @@ li a:hover {
     margin-left: 10px;
     float: left;
     word-wrap: left;
+  }
+
+  #base {
+     background-color: #d3d3d3;
+     width: 100%;
+     height: 600px;
   }
 
 .projects {
@@ -119,7 +129,6 @@ li a:hover {
     width: 50%;
     text-align: center;
     float: right;
-
 }
 
 #footer {
@@ -130,5 +139,11 @@ li a:hover {
    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    bottom:0;
    width:100%;
-   height:60px;  
+   height:60px;
+   border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 5px;
+  border-color: #4aaaa5;
 }
