@@ -145,6 +145,13 @@ input[type=text]  {
   width: 485px;
 }
 
+textarea {
+    margin: 10px 0;
+    width: 100%;
+    border-color: #ccc;
+    height: 200px;
+}
+
 #about-me {
   width: 500px;
   margin-top: 30px;
