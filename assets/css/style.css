@@ -143,6 +143,7 @@ input[type=submit]:hover {
 
 input[type=text]  {
   width: 485px;
+  height: 2.75em;
 }
 
 textarea {
