@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body, html  {
@@ -10,8 +11,10 @@ body, html  {
 
 h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: xx-large;
+  font-weight: bold;
   color: #ffffff;
-  padding: 20px;
+  padding: 22px 40px;
   top: 0;
   left: 0;
   margin-left: 110px;
@@ -22,12 +25,16 @@ h1 {
 
 h1:hover {
   background-color: #777777;
-  padding: 20px;
+  padding: 22px;
+  text-decoration: none;
 }
 
 h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
+  font-size: 1.75em;
+  margin-top: 20px;
+  font-weight: bolder;
   border-bottom-style: solid;
   border-width: 1px;
   border-color: #777777; 
@@ -37,6 +44,8 @@ h2 {
 h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
+  font-size: ;
+  font-weight: bolder;
   margin-top : 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -45,6 +54,19 @@ h3 {
   border-width: 1px;
   border-color: #777777;
   padding-bottom: 20px;
+}
+
+h4  {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+}
+
+h6  {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: small;
+
 }
 
 #header {
@@ -61,11 +83,12 @@ h3 {
 
 #header ul {
     list-style-type: none;
-    margin-left: 650px;
+    margin-left: 690px;
     margin-top: 25px;
     position: relative;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
     color: #777777;
 }
 
@@ -94,17 +117,15 @@ h3 {
     padding: 15px;
 }
 
-#wrapper  {
+.wrapper  {
   background-image: url(concrete_seamless.png);
   width: 960px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #cccccc;
   min-height: 100%;
+  height: auto;
   height: 100%;
   margin: 0 auto -70px 0;
-}
+
+  }
 
 #main {
   width: 650px;
@@ -114,14 +135,16 @@ h3 {
 div > p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    margin-top: 20px;
  }
 
  form {
   width; 275px;
+  margin-top: 20px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
+  color: #ababab;
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 input[type=submit] {
@@ -143,17 +166,25 @@ input[type=submit]:hover {
 
 input[type=text]  {
   width: 485px;
+  height: 2.75em;
+}
+
+textarea {
+    margin: 10px 0;
+    width: 100%;
+    border-color: #ccc;
+    height: 180px;
 }
 
 #about-me {
   width: 500px;
-  margin-top: 30px;
 }
 
 #about-me img {
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 #main-content {
@@ -171,7 +202,7 @@ input[type=text]  {
   margin-top: 40px;
   margin-left: 110px;
   width: 545px;
-  height: 613px;
+  height: 610px;
   background-color: #ffffff;
   display: inline-block;
 }
@@ -242,7 +273,6 @@ input[type=text]  {
 
   footer {
     float: left;
-    text-align: center;
     background-color: #666666;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -258,5 +288,5 @@ input[type=text]  {
 }
 
   footer  .push {
-    height: 70px;
+    height: 75px;
   }
