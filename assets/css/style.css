@@ -120,8 +120,8 @@ h6  {
 .wrapper  {
   background-image: url(concrete_seamless.png);
   width: 960px;
-  min-height: 100%;
-  height: auto;
+  /*min-height: 100%;*/
+  /*height: auto;*/
   height: 100%;
   margin: 0 auto -70px 0;
 
@@ -202,7 +202,7 @@ textarea {
   margin-top: 40px;
   margin-left: 110px;
   width: 545px;
-  height: 610px;
+  height: 600px;
   background-color: #ffffff;
   display: inline-block;
 }
