@@ -136,6 +136,7 @@ div > p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     margin-top: 20px;
+    line-height: 1.25;
  }
 
  form {
@@ -290,3 +291,55 @@ textarea {
   footer  .push {
     height: 75px;
   }
+
+   @media screen and (max-width: 768px) {
+    .wrapper  {
+      width: 100%;
+      height: 100%;
+    }
+    #header {
+    width: 100%;
+    height: 10.5%;
+    }
+    #header ul{
+    width: 90%;
+    margin-left: 70%;
+    }
+    h1  {
+    width: 32%;
+    margin-left: 2.5%;
+    font-size: 1.3em;
+    }
+    h1:hover  {
+      padding: 3.1%;
+    }
+    h2  {
+      margin-left: 1%;
+    }
+    h3  {
+    margin-left: 1%;
+    }
+    div p {
+      width: 111%;
+    }
+    #about-me {
+      width: 90%;
+    }
+    #main-content {
+      width: 100%;
+      margin-left: 3%;
+    }
+    #sidebar {
+    width: 97%;
+    padding-left: 2.75%;
+  }
+    #sidebar-box  {
+    width: 100%;
+    text-align: left;
+    padding-left: 2%;
+    }
+    footer  {
+      width: 100%;
+    }
+}
+}
